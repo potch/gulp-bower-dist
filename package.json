@@ -1,0 +1,27 @@
+{
+  "name": "gulp-bower-dist",
+  "version": "0.1.0",
+  "description": "Fix bower_component paths for distribution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/potch/gulp-bower-dist.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Potch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potch/gulp-bower-dist/issues"
+  },
+  "homepage": "https://github.com/potch/gulp-bower-dist",
+  "devDependencies": {
+    "gulp-util": "^3.0.0",
+    "event-stream": "^3.1.7",
+    "cheerio": "^0.17.0"
+  }
+}
