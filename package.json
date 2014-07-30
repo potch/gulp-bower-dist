@@ -1,6 +1,6 @@
 {
   "name": "gulp-bower-dist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fix bower_component paths for distribution",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/potch/gulp-bower-dist/issues"
   },
   "homepage": "https://github.com/potch/gulp-bower-dist",
-  "devDependencies": {
+  "dependencies": {
     "gulp-util": "^3.0.0",
     "event-stream": "^3.1.7",
     "cheerio": "^0.17.0"
