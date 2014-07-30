@@ -16,7 +16,7 @@ When you use bower dependencies in your project, they look like this:
 And you use them like this:
 
 ```html
-  <script src="bower_components/thingy/thingy.js"></script>
+  <script src="../bower_components/thingy/thingy.js"></script>
 ```
 
 But when your project is itself a bower dependency, now things look like this:
@@ -44,7 +44,7 @@ gulp.src('mycode.html')
 The result?
 
 ```html
-  <script src="../thingy/thingy.js"></script>
+  <script src="../../thingy/thingy.js"></script>
 ```
 
 Hooray!
